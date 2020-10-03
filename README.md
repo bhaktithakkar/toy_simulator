@@ -4,9 +4,9 @@
 
 2) Unzip the folder in any php version installed and navigate to it.
 
-3) Run the file StartGame.php from console which will ask form input command 
+3) Run the file StartGame.php from console which will ask for input commands
 
-4) Pass below command as below examples and "Exit" to end 
+4) Pass commands as below examples and "Exit" to end 
 
 ### Example a
 
