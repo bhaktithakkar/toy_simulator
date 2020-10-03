@@ -9,7 +9,7 @@ class Robot{
   
   	/**
    	 * @var integer Robot horizontal position on the table
-     */
+     	 */
   	protected $x;
   	
 	/**
@@ -26,11 +26,11 @@ class Robot{
   	 * @var array Direction map
    	*/
   	protected $directionMap = [
-    'NORTH' => 'EAST',
-    'EAST' => 'SOUTH',
-    'SOUTH' => 'WEST',
-    'WEST' => 'NORTH'
-    ];
+    	'NORTH' => 'EAST',
+    	'EAST' => 'SOUTH',
+    	'SOUTH' => 'WEST',
+    	'WEST' => 'NORTH'
+    	];
     
 	public function __construct(){
         $this->table = new Table(5,5);
@@ -103,7 +103,7 @@ class Robot{
 	 * @params $x, $y and $direction
 	 * @return void
 	 */
-	public funciton place($x,$y,$direction){
+	public function place($x,$y,$direction){
 		//Check if the positions are within table boundaries
 		if(!$this->table->withinBounds($x,$y)){
 			return sprintf('Coordinates (%d,%d) are outside table boundaries.', $x, $y).PHP_EOL; 
