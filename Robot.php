@@ -33,8 +33,8 @@ class Robot{
     	];
     
 	public function __construct(){
-        $this->table = new Table(5,5);
-    }
+        	$this->table = new Table(5,5);
+    	}
   
     /** 
      * Parse and execute
